@@ -5,10 +5,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Lint
-        run: npm lint
+        run: npm run lint
       - name: Test
-        run: npm test
+        run: npm run test
       - name: Build
-        run: npm build
+        run: npm run uild
       - name: Deploy
         run: echo "Deploying"
