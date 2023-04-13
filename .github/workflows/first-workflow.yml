@@ -2,7 +2,7 @@ name: First Workflow
 on: push
 jobs:
   first:
-    runs-on: ubunt-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Lint
         run: npm lint
